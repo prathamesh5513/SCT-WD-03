@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic Tac Toe - Fun Edition</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>😎 Tic-Tac-Toe - Fun Edition 🎉</h1>
+
+  <div class="game-board" id="board">
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+  </div>
+
+  <h2 id="winning-message" class="hide"></h2>
+  <button id="restartBtn">🔄 Restart Game</button>
+
+  <!-- Optional: Fun Sound Effects -->
+  <audio id="winSound" src="https://assets.mixkit.co/sfx/preview/mixkit-winning-notification-2018.mp3"></audio>
+  <audio id="drawSound" src="https://assets.mixkit.co/sfx/preview/mixkit-game-bonus-reached-2065.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
